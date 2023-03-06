@@ -1,13 +1,19 @@
-import logo from "./logo.svg";
+
 import "./App.css";
-import { FormExample } from "./components/FormExample";
-import { Login } from "./components/Login";
+// import { FormExample } from "./components/FormExample";
+import MainComponent from './components/MainComponent';
+// import { Homework } from './components/Homework';
+
+
 
 function App() {
   return (
     <div className="App">
       {/* <FormExample /> */}
-      <Login />
+      {/* < Input /> */}
+      {/* < Login /> */}
+      < MainComponent />
+      {/* < Homework /> */}
     </div>
   );
 }

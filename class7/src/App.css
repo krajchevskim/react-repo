@@ -1,5 +1,5 @@
 .App {
- 
+  text-align: center;
 }
 
 .App-logo {
@@ -35,36 +35,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100vh;
-  max-width: 500px;
-  width: 100%;
-  margin: auto;
-}
-
-.form {
-  width: 70%;
-  border: 1px solid grey;
-  padding: 20px;
-  border-radius: 5px;
-  background: lightblue;
-}
-
-button {
-  background: green;
-  margin-top: 30px;
-}
-
-label {
-  margin-right: 15px;
-  width: 15px;
-}
-
-p {
-  color:red;
 }

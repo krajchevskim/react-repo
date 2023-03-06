@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 export const FormExample = () => {
   const initialValues = { username: "", email: "", password: "" };
@@ -17,7 +17,7 @@ export const FormExample = () => {
     console.log(name);
     // [name] will be translated to username: value for the username input
     // and email: value for the email input
-    setFormValues({ ...formValues, [name]: value });
+    // setFormValues({ ...formValues, [name]: value });
     // console.log(formValues);
   };
 

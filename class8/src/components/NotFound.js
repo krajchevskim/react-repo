@@ -1,4 +1,15 @@
-export const NotFound = () => {
+import { useEffect } from "react";
+import { Navigate, useNavigate } from "react-router-dom";
 
-    return <h1>Resource not  found!</h1>
-};
+export const NotFound = () => {
+    // return <Navigate to='/'/>;
+    const navigate = useNavigate();
+
+    useEffect(() => {
+      setTimeout(() => {
+        navigate('/');
+      }, 2000);
+    })
+
+    return <h1>Page not found</h1>
+  };
